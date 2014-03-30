@@ -1,0 +1,17 @@
+
+<div class="col-xs-6 col-xs-offset-3 genie-box text-center">
+<h1>
+Feel free to spam the world!!!
+</h1>
+
+<br/>
+<br/>
+<%= simple_form_for @post do |f| %>
+<%= f.input :title , label: 'What is this image about?', placeholder: 'Dancing Donkey, Laughing llama' %>
+<br/>
+<%= f.input :description, label: 'Tell me More', placeholder: 'Donkey dancing on a ledge' %>
+<br/>
+<%= f.button :submit %>
+
+<% end %>
+</div>
